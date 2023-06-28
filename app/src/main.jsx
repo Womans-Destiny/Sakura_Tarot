@@ -6,6 +6,8 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Result from './pages/Result/Result.jsx'
 import Game from './pages/Game/Game.jsx'
 import Favorites from './pages/Favorites/Favorites.jsx'
+import Home from './pages/Home/Home.jsx'
+
 
 const router = createBrowserRouter ([
   {
@@ -25,6 +27,10 @@ const router = createBrowserRouter ([
   {
     path: '/favorites',
     element: <Favorites />
+  },
+  {
+    path: '/home',
+    element: <Home />
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(

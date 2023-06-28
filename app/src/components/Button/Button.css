@@ -1,3 +1,8 @@
-*{
-    background-color: aqua;
+
+
+
+.button{
+    position: absolute;
+    align-content: center;
+    background-color: #E4ECFF;
 }
