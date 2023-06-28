@@ -1,9 +1,11 @@
 import React from 'react'
+import './game.css'
+import Logo from '../../components/Logo.jsx'
 
 function Game() {
   return (
-    <div>
-      Game
+    <div className='game'>
+      <Logo/>
     </div>
   )
 }
