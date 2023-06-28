@@ -1,7 +1,6 @@
-* {
-  margin: auto;
-  padding: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
 #root {
   width: 100%;
   height: 100%;

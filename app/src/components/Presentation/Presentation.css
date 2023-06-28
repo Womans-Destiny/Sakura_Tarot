@@ -1,0 +1,29 @@
+.home {
+    width: 100%;
+    background-image: url('../../assets/bg-home.png');
+    font-family: "Cinzel";
+    overflow: hidden;
+}
+
+.body-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+   
+}
+  
+  .h1, .h2, .p {
+    font-size: medium;
+    margin: 0vh;
+    
+}
+
+span{
+    font-weight: bold;
+}
+  
+  
+  
