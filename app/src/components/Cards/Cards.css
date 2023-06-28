@@ -1,3 +1,30 @@
-.card {
-    width: 18rem;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;800&family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap');
+
+.container-result{
+    display: flex;
+    margin-top: 70px;
 }
+
+.card-img-top{
+    width: 77px;
+    height: 173px;
+}
+.card-front{
+    display: flex;
+}
+.card-body {
+    position:absolute;
+    margin-top: 10px;
+    width: 80px;
+    font-family: 'Cinzel';
+    font-size: 15px;
+}
+.card-text{
+    margin-top: 15px;
+    line-height: 1;
+}
+
+
+
+
+  
