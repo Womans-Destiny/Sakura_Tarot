@@ -11,10 +11,7 @@ function Game() {
       <Logo/>
       <CardsReverse />
       
-<<<<<<< HEAD
-=======
       <ButtonGame />
->>>>>>> a166c8be1bc922bd61bc6484434516f589cc7790
     </div>
   )
 }
