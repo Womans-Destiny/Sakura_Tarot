@@ -1,16 +1,16 @@
 import Logo from '../../components/Logo/Logo.jsx'
+import Presentation from '../../components/Presentation/Presentation.jsx'
 import './home.css'
 import Button from '../../components/Button/Button.jsx'
+
 
 function Home() {
   return (
     <div className='home'>
-      <div >
         <Logo/>
-        <Presentation />
-      
+        <Presentation/> 
+        <Button/>
       </div>
-    </div>
   )
 }
 
