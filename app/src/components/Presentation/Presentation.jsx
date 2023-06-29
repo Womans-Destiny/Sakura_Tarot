@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Presentation.css';
 
 
@@ -20,5 +20,3 @@ function Presentation() {
 
 export default Presentation
 
-
-ull origin dev
