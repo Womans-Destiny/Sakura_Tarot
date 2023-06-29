@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../../components/Logo.jsx'
 import Presentation from '../../components/Presentation/Presentation.jsx'
-
+import './home.css'
 
 
 function Home() {

@@ -1,9 +1,3 @@
-.home {
-    width: 100%;
-    background-image: url('../../assets/bg-home.png');
-    font-family: "Cinzel";
-    overflow: hidden;
-}
 
 .body-home {
     display: flex;
@@ -15,10 +9,14 @@
    
 }
   
-  .h1, .h2, .p {
-    font-size: medium;
+  h1, h2 {
+    font-size: large;
     margin: 0vh;
     
+}
+
+h3, p {
+    font-size: medium;
 }
 
 span{
