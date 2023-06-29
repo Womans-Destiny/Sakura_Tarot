@@ -10,7 +10,6 @@ function Game() {
     <div className='game'>
       <Logo/>
       <CardsReverse />
-      
       <ButtonGame />
     </div>
   )
