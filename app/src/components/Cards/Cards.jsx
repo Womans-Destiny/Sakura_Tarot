@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Cards.css'
 
+const titles = ['PASADO', 'PRESENTE', 'FUTURO'];
+
 function Card() {
   const [cardData, setCardData] = useState([]);
 
@@ -16,8 +18,9 @@ function Card() {
 
   function getRandomCards(cards, count) {
     const shuffledCards = cards.sort(() => 0.5 - Math.random());
-    return shuffledCards.slice(0, count).map((card) => ({
+    return shuffledCards.slice(0, count).map((card, index) => ({
       ...card,
+      title: titles[index], 
       isFlipped: true,
     }));
   }
@@ -43,6 +46,7 @@ function Card() {
           key={card.id}
           onClick={() => handleCardFlip(card.id)}
         >
+           <h6 className="card-position">{card.title}</h6>
           <div className="card-front">
             <img
               src={card.isFlipped ? card.cardsReverse.sakuraReverse : card.sakuraCard}
@@ -50,6 +54,7 @@ function Card() {
               alt="..."
             />
           </div>
+          
           <div className={`card-body ${!card.isFlipped ? '' : 'hidden'}`}>
             {!card.isFlipped && (
               <>
