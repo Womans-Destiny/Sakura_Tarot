@@ -8,8 +8,7 @@ function Result() {
   return (
     <div className='result'>
       <Logo/>
-      <Cards />
-     
+      <Cards />     
     </div>
   )
 }
