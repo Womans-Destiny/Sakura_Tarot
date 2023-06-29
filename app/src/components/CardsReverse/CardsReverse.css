@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 87px;
-    height: 195px;
+    width: 77px;
+    height: 173px;
     background-image: url(https://i.ibb.co/XxrvMJ2/Reverso-Sakura.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,6 +33,7 @@
     position: absolute;
     margin-left: -55px;
     transform: translate(-50%, -50%);
+    margin-top: 60px;
   }
   
   .card-reverse-img-top {
@@ -48,4 +49,23 @@
     height: 200px;
     background-color: transparent;
     cursor: pointer;
+  }
+  .ready-text{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    background-color: #8DA9ED;
+    border: 3px solid #F988BE;
+    border-radius: 15px;
+    display: flex;
+  }
+  .text-feedback{
+    font-size: 16px;
+  }
+  .image-feedback{
+    width: 70px;
+    margin-right: 1px;
+  }
+  .title-game{
+    text-align: center;
   }
