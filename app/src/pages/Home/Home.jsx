@@ -4,18 +4,15 @@ import Presentation from '../../components/Presentation/Presentation.jsx'
 import './home.css'
 
 
+
 function Home() {
   return (
-    <>
-    <div className='home'>
-      <div >
+      <div className='home'>
         <Logo/>
-      </div>
-      <div>
         <Presentation />
+      
       </div>
-    </div>
-    </>
+    
   )
 }
 
