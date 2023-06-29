@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './Cards.css'
+
 
 const titles = ['PASADO', 'PRESENTE', 'FUTURO'];
 
