@@ -67,16 +67,8 @@ Here are the steps for installation:
 
 ## Developers
 
-  [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br><sub>Rosa Pedret Vergillos</sub>](https://github.com/Rosapedret2)
-
- [<img src="https://avatars.githubusercontent.com/u/131855670?v=4" width=115><br><sub>Ana Lucía Silva Córdoba</sub>](https://github.com/alusilco)
-
-  [<img src="https://avatars.githubusercontent.com/u/000?v=4" width=115><br><sub>Marga Mbambé</sub>]([https://github.com/marga]) 
-
-   [<img src="https://avatars.githubusercontent.com/u/125391542?v=4" width=115><br><sub>Rafaela Silveira Prieto </sub>](https://github.com/todaunabossa)
-
-
-  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Mónica Blanco Calviño</sub>](https://github.com/mgblanco10)
+  [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br><sub>Rosa Pedret Vergillos</sub>](https://github.com/Rosapedret2)|[<img src="https://avatars.githubusercontent.com/u/131855670?v=4" width=115><br><sub>Ana Lucía Silva Córdoba</sub>](https://github.com/alusilco)|[<img src="https://avatars.githubusercontent.com/u/000?v=4" width=115><br><sub>Marga Mbambé</sub>]([https://github.com/marga]) | [<img src="https://avatars.githubusercontent.com/u/125391542?v=4" width=115><br><sub>Rafaela Silveira Prieto </sub>](https://github.com/todaunabossa)[<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Mónica Blanco Calviño</sub>](https://github.com/mgblanco10)|
+  | :---: | :---: | :---: | :---: | :---: | 
 
 
 
