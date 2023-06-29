@@ -67,8 +67,35 @@ Here are the steps for installation:
 
 ## Developers
 
-  [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br><sub>Rosa Pedret Vergillos</sub>](https://github.com/Rosapedret2)|[<img src="https://avatars.githubusercontent.com/u/131855670?v=4" width=115><br><sub>Ana Lucía Silva Córdoba</sub>](https://github.com/alusilco)|[<img src="https://avatars.githubusercontent.com/u/000?v=4" width=115><br><sub>Marga Mbambé</sub>]([https://github.com/marga]) | [<img src="https://avatars.githubusercontent.com/u/125391542?v=4" width=115><br><sub>Rafaela Silveira Prieto </sub>](https://github.com/todaunabossa)[<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Mónica Blanco Calviño</sub>](https://github.com/mgblanco10)|
-  | :---: | :---: | :---: | :---: | :---: | 
+<div style="display: flex; justify-content: center;">
+  <a href="https://github.com/Rosapedret2" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/131767553?v=4" alt="Rosa Pedret Vergillos" width="115">
+    <span>Rosa Pedret Vergillos</span>
+    <span>rosapedret2@gmail.com</span>
+  </a>
+  <a href="https://github.com/alusilco" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/131855670?v=4" alt="Ana Lucía Silva Córdoba" width="115">
+    <span>Ana Lucía Silva Córdoba</span>
+    <span>coderalsc@gmail.com</span>
+  </a>
+  <a href="https://github.com/marga" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/000?v=4" alt="Marga Mbambé" width="115">
+    <span>Marga Mbambé</span>
+    <span>hola@margambande.com</span>
+  </a>
+  <a href="https://github.com/todaunabossa" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/125391542?v=4" alt="Rafaela Silveira Prieto" width="115">
+    <span>Rafaela Silveira Prieto</span>
+    <span>todaunabossa@gmail.com</span>
+  </a>
+  <a href="https://github.com/mgblanco10" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/107352744?v=4" alt="Mónica Blanco Calviño" width="115">
+    <span>Mónica Blanco Calviño</span>
+    <span>mgblanco1001@gmail.com</span>
+  </a>
+</div>
+
+
 
 
 
