@@ -1,11 +1,13 @@
-import React from 'react'
-import Logo from '../../components/Logo.jsx'
-import './result.css'
+import Logo from '../../components/Logo/Logo.jsx'
+import './Result.css'
+import Cards from '../../components/Cards/Cards.jsx'
+
 
 function Result() {
   return (
     <div className='result'>
       <Logo/>
+      <Cards />
     </div>
   )
 }
