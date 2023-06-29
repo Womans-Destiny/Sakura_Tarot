@@ -1,8 +1,10 @@
 .home {
-  height: 100vh;  
-  background-position: center 20%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   background-image: url('../../assets/bg-home.png');
 
 }

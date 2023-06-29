@@ -1,0 +1,18 @@
+
+.buttonFavorites{
+    width: 260px;
+    height: 77px;
+    background-color: #E4ECFF;
+    border: 2px solid #8DA9EB;
+    border-radius: 30px;
+    position: absolute;
+    top: 750px;
+    left: 65px;
+    
+}
+.textButtonFavorites {
+    color: #2A5A87;
+    text-align: center;
+    text-decoration: none;
+
+}
