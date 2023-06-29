@@ -67,13 +67,12 @@ Here are the steps for installation:
 
 ## Developers
 
-  - Rosa Pedret Vergillos (rosapedret2@gmail.com )
-  [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br>](https://github.com/Rosapedret2)
-  - Ana Lucía Silva Córdoba (coderalsc@gmail.com)
- [<img src="https://avatars.githubusercontent.com/u/131855670?v=4" width=115><br>](https://github.com/alusilco)
+  [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br><sub>Rosa Pedret Vergillos</sub>](https://github.com/Rosapedret2)
+
+ [<img src="https://avatars.githubusercontent.com/u/131855670?v=4" width=115><br><sub>Ana Lucía Silva Córdoba</sub>](https://github.com/alusilco)
 
   - Marga Mbambé (hola@margambande.com)
-  [<img src="https://avatars.githubusercontent.com/u/000?v=4" width=115><br>]([https://github.com/marga]) 
+  [<img src="https://avatars.githubusercontent.com/u/000?v=4" width=115><br><sub>Marga Mbambé</sub>]([https://github.com/marga]) 
   - Rafaela Silveira Prieto (todaunabossa@gmail.com)
    [<img src="https://avatars.githubusercontent.com/u/125391542?v=4" width=115><br>](https://github.com/todaunabossa)
 
