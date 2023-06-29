@@ -1,3 +1,4 @@
+import React from 'react'
 import Logo from '../../components/Logo/Logo.jsx'
 import './Result.css'
 import Cards from '../../components/Cards/Cards.jsx'
@@ -8,6 +9,7 @@ function Result() {
     <div className='result'>
       <Logo/>
       <Cards />
+     
     </div>
   )
 }
