@@ -1,0 +1,12 @@
+import './button.css';
+import { Link } from 'react-router-dom';
+
+function Button() {
+  return (
+    <button className="button">
+        <Link to="/">Consultar Cartas Clow</Link>
+    </button>
+  )
+}
+
+export default Button
