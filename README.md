@@ -1,5 +1,11 @@
-# <p align="center"><img src="Photos/womansDestiny.png"></img></p>
-# <p align="center">Sakura Tarot</p>
+# <p align="center"><img src="app/src/assets/womansDestiny.png"></img></p>
+
+# <p align="center">Sakura Tarot
+  <p align="center">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   </p>
+</p>
+
 
 ## Description
 
@@ -16,14 +22,23 @@ _Project phases:_
   - **Demo**
   - **Test**
 
-## Mockups
+## Built the project with atomic system: 
+### Figma wireframes
+[Enlace al diseño wireframes mobile](app/src/assets/wireframeMobil.png)
+[Enlace al diseño wireframes desktop](app/src/assetsfigmaDewireframeDesktop.png)
+### Figma átomos
+[Enlace al diseño Atomos en Figma](app/src/assets/atomos.png)
+### Figma moleculas
+[Enlace al diseño Atomos en Figma](app/src/assets/moleculas.png)
+### Figma organismos
+[Enlace al diseño Organismos en Figma](app/src/assets/organismos.png)
+### Figma mobile
+[Enlace al diseño Versión Mobil en Figma](app/src/assets/figmaMobile.png)
+### Figma version desktop
+[Enlace al diseño Versión Desktop en Figmfig](app/src/assets/figmaDesktop.png)
 
-### Mobile
 
-### Desktop
-
-
-## Technologies 
+## :hammer:Technologies 
 
 <div align=""> 
 <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
@@ -33,24 +48,37 @@ _Project phases:_
 </div>
 
   
-## Tools
+## :hammer:Tools
 
 <div align="">  
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="50" heigth="50"/>
 <img style="margin: 5px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" alt="VisualStudioCode" height="50" />
-<img src="https://github.com/EqualWaveStudio/soundwave/assets/131855670/465e872f-6242-48b4-964c-7f5c3e749685" alt="jest" width="50" height="50"/>
+<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
+</div>
 <img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="50" heigth="50"/>
  <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-Canva.png" alt="Canca" width="60" heigth="60"/>
 
+### Installation to see the application
+Here are the steps for installation:
+
+- git clone https://github.com/Womans-Destiny/Sakura_Tarot.git
+- npm install
 
 ## Developers
 
   - Rosa Pedret Vergillos (rosapedret2@gmail.com )
+  [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br>](https://github.com/Rosapedret2)
   - Ana Lucía Silva Córdoba (coderalsc@gmail.com)
+ [<img src="https://avatars.githubusercontent.com/u/131855670?v=4" width=115><br>](https://github.com/alusilco)
+
   - Marga Mbambé (hola@margambande.com)
+  [<img src="https://avatars.githubusercontent.com/u/000?v=4" width=115><br>]([https://github.com/marga]) 
   - Rafaela Silveira Prieto (todaunabossa@gmail.com)
+   [<img src="https://avatars.githubusercontent.com/u/125391542?v=4" width=115><br>](https://github.com/todaunabossa)
+
   - Mónica Blanco (mgblanco1001@gmail.com)
+  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br>](https://github.com/mgblanco10) 
 
 
 ### Credits:

@@ -7,19 +7,19 @@
     background-image: url(https://i.ibb.co/XxrvMJ2/Reverso-Sakura.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 3px 3px #686868;
+    box-shadow: 3px 3px var(--box-shadow-cards);
     text-align: center;
     margin-top: 450px;
     margin-left: 145px;
   }
   
   .text-card-reverse {
-    color: black;
+    color: var(--black);
     font-weight: bolder;
     font-size: 18px;
     width: 110px;
     margin-top: 140px;
-    margin-right: 3px;
+    padding-left: 30px;
   }
   
   .card-circle-reverse {
@@ -55,8 +55,8 @@
     position: absolute;
     width: 190px;
     height: 80px;
-    background-color: #8DA9ED;
-    border: 3px solid #F988BE;
+    background-color: var(--modal-feedback);
+    border: 3px solid var(--modal-feedback-border);
     border-radius: 15px;
     display: flex;
     bottom: 460px;
