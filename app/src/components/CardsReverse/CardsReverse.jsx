@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './CardsReverse.css';
-import imgFeedback from '../../assets/img-feedback.png'
+import imgFeedback from '../../assets/img-feedback.png';
 
 function CardsReverse() {
   const [cards, setCards] = useState([]);
   const [showDeck, setShowDeck] = useState(true);
   const [selectedCards, setSelectedCards] = useState([]);
+  const [showResult, setShowResult] = useState(false);
 
   useEffect(() => {
     fetch('https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/')
@@ -16,19 +17,10 @@ function CardsReverse() {
       })
       .catch(error => console.log(error));
   }, []);
-
-//   const handleDeckClick = () => {
-//     setShowDeck(false);
-//     setSelectedCards(cards.slice(0, 8));
-//   };
-const handleDeckClick = () => {
-    if (selectedCards.length === 0) {
-      setShowDeck(!showDeck);
-      setSelectedCards(cards.slice(0, 8));
-    } else {
-      setSelectedCards([]);
-      setShowDeck(true);
-    }
+  
+  const handleDeckClick = () => {
+    setShowDeck(false);
+    setSelectedCards(cards.slice(0, 8));
   };
 
   const handleCardClick = (index) => {
@@ -41,6 +33,12 @@ const handleDeckClick = () => {
       updatedSelectedCards.splice(index, 1);
       return updatedSelectedCards;
     });
+
+    if (selectedCards.length === 6) {
+      setTimeout(() => {
+        setShowResult(true);
+      }, 1000); 
+    }
   };
 
   return (
@@ -67,10 +65,28 @@ const handleDeckClick = () => {
               </div>
             ))}
           </div>
+          {selectedCards.length === 7 && (
+            <div className="ready-text">
+              <img className='image-feedback' src={imgFeedback} alt='imagen de la ventana modal del feedback' />
+              <p className='text-feedback'>HAZ SELECCIONADO YA 1 CARTA</p>
+            </div>
+          )}
+          {selectedCards.length === 6 && (
+            <div className="ready-text">
+              <img className='image-feedback' src={imgFeedback} alt='imagen de la ventana modal del feedback' />
+              <p className='text-feedback'>HAZ SELECCIONADO YA 2 CARTAS</p>
+            </div>
+          )}
           {selectedCards.length === 5 && (
             <div className="ready-text">
-                <img className='image-feedback' src={imgFeedback} alt='imagen de la ventana modal del feedback' />
-                <p className='text-feedback'>TU TIRADA HA SIDO GUARDADA</p>
+              <img className='image-feedback' src={imgFeedback} alt='imagen de la ventana modal del feedback' />
+              <p className='text-feedback'>HAZ SELECCIONADO YA 3 CARTAS</p>
+            </div>
+          )}
+          {showResult && (
+            <div className="ready-text">
+              <img className='image-feedback' src={imgFeedback} alt='imagen de la ventana modal del feedback' />
+              <p className='text-feedback'>YA PUEDES PASAR A VER TU TIRADA</p>
             </div>
           )}
         </>
@@ -81,3 +97,4 @@ const handleDeckClick = () => {
 }
 
 export default CardsReverse;
+
