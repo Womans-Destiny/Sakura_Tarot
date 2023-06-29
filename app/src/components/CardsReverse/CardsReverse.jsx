@@ -43,11 +43,11 @@ function CardsReverse() {
 
   return (
     <>
-    <h3 className='title-game'>ESCOGE TRES CARTAS</h3>
+    
     <div className="card-reverse-container">
       {showDeck ? (
         <div className="card-reverse deck" onClick={handleDeckClick}>
-          <span className='text-card-reverse'>Click para mostrar las cartas</span>
+          <span className='text-card-reverse'>Click y escoge 3 cartas </span>
         </div>
       ) : (
         <>
@@ -68,19 +68,19 @@ function CardsReverse() {
           {selectedCards.length === 7 && (
             <div className="ready-text">
               <img className='image-feedback' src={imgFeedback} alt='imagen de la ventana modal del feedback' />
-              <p className='text-feedback'>HAZ SELECCIONADO YA 1 CARTA</p>
+              <p className='text-feedback'>HAS SELECCIONADO 1 CARTA</p>
             </div>
           )}
           {selectedCards.length === 6 && (
             <div className="ready-text">
               <img className='image-feedback' src={imgFeedback} alt='imagen de la ventana modal del feedback' />
-              <p className='text-feedback'>HAZ SELECCIONADO YA 2 CARTAS</p>
+              <p className='text-feedback'>HAS SELECCIONADO 2 CARTAS</p>
             </div>
           )}
           {selectedCards.length === 5 && (
             <div className="ready-text">
               <img className='image-feedback' src={imgFeedback} alt='imagen de la ventana modal del feedback' />
-              <p className='text-feedback'>HAZ SELECCIONADO YA 3 CARTAS</p>
+              <p className='text-feedback'>HAS SELECCIONADO 3 CARTAS</p>
             </div>
           )}
           {showResult && (
