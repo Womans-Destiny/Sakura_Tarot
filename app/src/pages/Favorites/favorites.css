@@ -1,5 +1,10 @@
 .favorites {
-    width: 390px;
-    height: 844px;
+   
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url('../../assets/bg-pages.svg');
 }
