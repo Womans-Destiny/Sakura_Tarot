@@ -1,7 +1,5 @@
-# <p align="center"><img src="app/src/assets/womansDestiny.png">
-# <p align="center">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
-   </p> 
+# <p align="center"><img src="app/src/assets/womansDestiny.png"> </p>
+# <p align="center"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p> 
 # <p align="center">Sakura Tarot</p>
 
 
@@ -40,12 +38,12 @@ _Project phases:_
 ## Tools
 
 <div align="">  
-<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="50" heigth="20"/>
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="20" heigth="20"/>
 <img style="margin: 5px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="20" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" alt="VisualStudioCode" height="20" />
 <img src="https://github.com/EqualWaveStudio/soundwave/assets/131855670/465e872f-6242-48b4-964c-7f5c3e749685" alt="jest" width="20" height="20"/>
 <img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="20" heigth="20"/>
- <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-Canva.png" alt="Canca" width="60" heigth="20"/>
+ <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-Canva.png" alt="Canca" width="20" heigth="20"/>
 
 
 ## Developers
