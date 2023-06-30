@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import './Cards.css';
 
 const titles = ['PASADO', 'PRESENTE', 'FUTURO'];
 
@@ -39,7 +39,7 @@ function Card() {
   }
 
   return (
-    <div className='container-result'>
+    <div className='containerResult'>
       {cardData.map((card) => (
         <div
           className={`card ${card.isFlipped ? 'flipped' : ''}`}

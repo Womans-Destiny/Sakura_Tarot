@@ -1,20 +1,21 @@
+<<<<<<<<< Temporary merge branch 1
 
-
-=======
+=========
 div.home{
     overflow: hidden;
 }
->>>>>>> ef02826fc62749f6a397d89444938c08d9042252
+>>>>>>>>> Temporary merge branch 2
 .body-home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-=======
+<<<<<<<<< Temporary merge branch 1
+=========
     margin: 25px;
     
->>>>>>> ef02826fc62749f6a397d89444938c08d9042252
+>>>>>>>>> Temporary merge branch 2
     
    
 }
@@ -31,11 +32,11 @@ h3, p {
 
 span{
     font-weight: bold;
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 }
   
   
   
-=======
+=========
 }
->>>>>>> ef02826fc62749f6a397d89444938c08d9042252
+>>>>>>>>> Temporary merge branch 2

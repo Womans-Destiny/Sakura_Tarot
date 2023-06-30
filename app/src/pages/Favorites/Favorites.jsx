@@ -1,6 +1,6 @@
-
 import './favorites.css'
 import Window from '../../components/Window/window.jsx'
+import Logo from '../../components/Logo/Logo'
 
 function Favorites() {
   return (

@@ -1,6 +1,9 @@
+<<<<<<<<< Temporary merge branch 1
 
+=========
+import React from 'react';
+>>>>>>>>> Temporary merge branch 2
 import './Presentation.css';
-
 
 function Presentation() {
   return (
@@ -18,8 +21,9 @@ function Presentation() {
   )
 }
 
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 export default Presentation
 
-
-ull origin dev
+=========
+export default Presentation
+>>>>>>>>> Temporary merge branch 2
