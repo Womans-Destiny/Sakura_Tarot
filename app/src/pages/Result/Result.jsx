@@ -11,7 +11,8 @@ function Result() {
     <div className='result'>
       <Logo/>
       <Cards />
-     
+      <Comment />
+      <ButtonFavorites />     
     </div>
   )
 }
