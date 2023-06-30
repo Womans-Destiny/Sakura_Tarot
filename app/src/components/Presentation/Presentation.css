@@ -1,42 +1,35 @@
-<<<<<<<<< Temporary merge branch 1
 
-=========
 div.home{
     overflow: hidden;
 }
->>>>>>>>> Temporary merge branch 2
+
 .body-home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-<<<<<<<<< Temporary merge branch 1
-=========
     margin: 25px;
     
->>>>>>>>> Temporary merge branch 2
-    
-   
 }
   
   h1, h2 {
     font-size: large;
     margin: 0vh;
+    line-height: 2;
     
 }
 
 h3, p {
     font-size: medium;
+    line-height: 2;
 }
 
 span{
     font-weight: bold;
-<<<<<<<<< Temporary merge branch 1
+
 }
   
   
-  
-=========
-}
->>>>>>>>> Temporary merge branch 2
+
+

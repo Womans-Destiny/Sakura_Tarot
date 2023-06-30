@@ -1,19 +1,17 @@
 .game {
     height: 100vh;
-<<<<<<< HEAD
+
     background-position: center;
     background-size: cover;
-=======
+
     margin: 0;
     padding: 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
->>>>>>> 054e0fd3c0b87000aa8c378fbe70113f377fe52c
+
     background-image: url('../../assets/bg-pages.svg');
-    
 }
-<<<<<<< HEAD
 /* @media (min-width: 1024px){
     .game {
         
@@ -22,5 +20,4 @@
         
 }
 } */
-=======
->>>>>>> 054e0fd3c0b87000aa8c378fbe70113f377fe52c
+
