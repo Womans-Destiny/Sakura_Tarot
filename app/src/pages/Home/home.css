@@ -11,6 +11,11 @@
 >>>>>>> ef02826fc62749f6a397d89444938c08d9042252
 
   .home {
+    width: 100vh;
+    height: 100vh;
+    
+    background-position: center 20%;
+    background-repeat: no-repeat;
     background-image: url('../../assets/bg-home.png');
     background-position: center 20%;
     background-repeat: no-repeat;

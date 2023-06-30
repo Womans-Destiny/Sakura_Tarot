@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Presentation.css';
 
 
@@ -23,6 +23,3 @@ export default Presentation
 
 
 ull origin dev
-=======
-export default Presentation
->>>>>>> ef02826fc62749f6a397d89444938c08d9042252
