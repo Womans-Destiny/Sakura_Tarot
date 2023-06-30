@@ -68,6 +68,8 @@
   .text-feedback{
     font-size: 14px;
     margin-left: 5px;
+    margin-top: 1px;
+   
   }
   .image-feedback{
     width: 70px;
