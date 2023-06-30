@@ -1,4 +1,4 @@
-# <p align="center"><img src="app/src/assets/womensDestiny.png">
+# <p align="center"><img src="app/src/assets/womansDestiny.png">
 # <p align="center">Sakura Tarot</p>
 
 ## Description
