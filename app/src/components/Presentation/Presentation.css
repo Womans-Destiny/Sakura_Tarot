@@ -1,27 +1,35 @@
 
+div.home{
+    overflow: hidden;
+}
+
 .body-home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 25px;
     
-   
 }
   
   h1, h2 {
     font-size: large;
     margin: 0vh;
+    line-height: 2;
     
 }
 
 h3, p {
     font-size: medium;
+    line-height: 2;
 }
 
 span{
     font-weight: bold;
+
 }
   
   
-  
+
+

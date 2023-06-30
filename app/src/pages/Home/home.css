@@ -1,10 +1,10 @@
-
-  .home {
-    background-image: url('../../assets/bg-home.png');
+.home {
+    /* width: 100vh; */
+    height: 100vh;    
     background-position: center 20%;
-    background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Cinzel";
-    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bg-home.png');
+
   }
   
