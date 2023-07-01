@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;800&family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap');
 
 .containerResult{
     display: flex;
@@ -21,9 +20,6 @@
 .card-text{
     margin-top: 15px;
     line-height: 1;
-    font-weight: 500;
-    
-    
 }
 .card-position{
     margin-bottom: 10px;
