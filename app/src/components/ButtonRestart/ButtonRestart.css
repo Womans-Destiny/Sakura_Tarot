@@ -5,8 +5,8 @@
     border: 2px solid #F988BE;
     border-radius: 30px;
     position: absolute;
-    top: 85vh;
-    left: 5vh;
+    bottom: 10vh;
+    left: 35vw;
     
 }
 .textButtonRestart {
@@ -15,3 +15,12 @@
     text-decoration: none;
 
 }
+
+@media only screen and (min-width: 393px) and (max-width: 852px) {
+
+    .buttonRestart {
+      top: 705px;
+      left: 5vh;
+  
+      }
+    }

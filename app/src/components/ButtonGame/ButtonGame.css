@@ -1,17 +1,26 @@
 
-.buttonGame{
-    width: 170px;
+.buttonGame {
+    width: 195px;
     height: 50px;
     background-color: #2A5A87;
     border: 2px solid #F988BE;
     border-radius: 30px;
     position: absolute;
-    top: 735px;
-    left: 13vh;
-    
+    bottom: 10vh;
+    left: 43vw;
+        
 }
 .textButtonGame {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
 }
+
+@media only screen and (min-width: 393px) and (max-width: 852px) {
+
+    .buttonGame {
+      top: 720px;
+      left: 11.5vh;
+  
+      }
+    }
