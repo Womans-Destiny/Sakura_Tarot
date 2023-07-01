@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function ButtonFavorites() {
   return (
     <button className="buttonFavorites">
-        <Link to="/favorites" className='textButtonFavorites'>GURDAR EN FAVORITOS</Link>
+        <Link to="/favorites" className='textButtonFavorites'>GURDAR TIRADA</Link>
     </button>
   )
 }

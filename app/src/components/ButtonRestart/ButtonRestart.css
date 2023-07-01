@@ -1,18 +1,17 @@
-
-.button{
-    width: 195px;
+.buttonRestart {
+    width: 140px;
     height: 50px;
     background-color: #2A5A87;
     border: 2px solid #F988BE;
     border-radius: 30px;
     position: absolute;
-    top: 705px;
-    left: 11vh;
+    top: 85vh;
+    left: 5vh;
     
 }
-.textButton {
+.textButtonRestart {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
-    
+
 }
