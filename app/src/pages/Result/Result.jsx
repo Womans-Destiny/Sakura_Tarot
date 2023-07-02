@@ -12,6 +12,7 @@ function Result() {
       <Cards />
       <ButtonFavorites />
       <ButtonRestart />
+
     </div>
   )
 }
