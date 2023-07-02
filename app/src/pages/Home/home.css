@@ -1,12 +1,22 @@
 
 
 .home {
-    /* width: 100vh; */
     height: 100vh;    
     background-position: center 20%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../../assets/cardcaptor-sakura.png');
+    /*background-image: url('../../assets/bg_sakura_Jpg.jpg');*/
+    background-color: rosybrown;
 
   }
   
+  @media only screen and (min-width: 393px) and (max-width: 852px) {
+
+    .home {
+      height: 100vh;    
+      background-repeat: no-repeat;
+    /*background-image: url('../../assets/bg_sakura_Jpg.jpg');*/
+
+  
+      }
+    }

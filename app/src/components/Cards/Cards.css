@@ -2,10 +2,16 @@
 .containerResult{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    width: 50vw;
+    margin-left: 24.5vw;   
+
+    
 }
 .card-img-top{
-    width: 88px;
-    height: 173px;
+    width: 90px;
+    height: 180px;
 }
 .card-front{
     display: flex;
@@ -25,4 +31,22 @@
     margin-bottom: 10px;
     font-size: 16px;
     align-items: center;
+}
+
+
+@media only screen and (min-width: 393px) and (max-width: 852px) {
+
+    .containerResult{
+        display: flex;
+        justify-content: space-between;
+        padding: 1px;
+        width: 90vw;
+        margin-left: 4vw;
+        margin-top: 3vh;
+
+    }
+    .card-img-top{
+        width: 88px;
+        height: 173px;
+    }
 }

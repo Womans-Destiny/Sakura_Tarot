@@ -9,35 +9,33 @@
     background-repeat: no-repeat;
     box-shadow: 3px 3px #686868;
     text-align: center;
-    margin-top: 450px;
-    margin-left: 145px;
+    margin-top: 17vh;
+    margin-left: 47.1vw;
   }
   
   .text-card-reverse {
     color: black;
     font-weight: bolder;
     font-size: 18px;
-    width: 200px;
-    margin-top: -85px;
+    width: 250px;
+    margin-top: -86px;
     position: absolute;
-    margin-left: 30vh;
+    margin-left: 40vh;
     line-height: 1;
     flex-direction: row;
   }
   
   .card-circle-reverse {
-    position: relative;
-    margin: auto;
-    bottom: 420px;
-    left: 45px;
+    position: absolute;
+    left: 48vw;
+    top: 27vh;
     padding-bottom: 10px;
   }
   
   .card-reverse {
     position: absolute;
-    margin-left: -55px;
     transform: translate(-50%, -50%);
-    margin-top: 60px;
+    margin-top: 70px;
   }
   
   .card-reverse-img-top {
@@ -78,3 +76,18 @@
   .title-game{
     text-align: center;
   }
+
+  @media only screen and (min-width: 393px) and (max-width: 852px) {
+
+    .card-reverse-container {
+      margin-top: 20vh;
+      margin-left: 39vw;
+      
+    }
+    .card-circle-reverse {
+      position: absolute;
+      left: 42vw;
+      top: 27vh;
+      
+    }
+    }
