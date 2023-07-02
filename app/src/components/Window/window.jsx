@@ -10,7 +10,7 @@ const Window = () => {
     setNewComment('');
   };
 
-  const date = new Date().toLocaleDateString(); // Obtener la fecha actual
+  const date = new Date().toLocaleDateString(); 
 
   return (
     <div className="window">
