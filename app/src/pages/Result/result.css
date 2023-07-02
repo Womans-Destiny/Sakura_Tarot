@@ -4,4 +4,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../../assets/cardcaptor-sakura.png');
-}
+  }
+  
+  @media (max-width: 768px) {
+    .result {
+      background-position: center;
+      background-size: contain;
+    }
+  }
+  
