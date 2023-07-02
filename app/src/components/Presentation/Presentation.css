@@ -9,7 +9,7 @@ div.home{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 25px;
+    margin: 65px;
     
 }
   
@@ -30,6 +30,11 @@ span{
 
 }
   
-  
+@media only screen and (min-width: 393px) and (max-width: 852px) {
+
+    .body-home {
+        margin: 30px;
+      }
+    }
 
 

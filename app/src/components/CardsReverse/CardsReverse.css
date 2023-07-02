@@ -9,8 +9,8 @@
     background-repeat: no-repeat;
     box-shadow: 3px 3px #686868;
     text-align: center;
-    margin-top: 17vh;
-    margin-left: 47.1vw;
+    margin-top: 18vh;
+    margin-left: 47vw;
   }
   
   .text-card-reverse {
@@ -18,11 +18,11 @@
     font-weight: bolder;
     font-size: 18px;
     width: 250px;
-    margin-top: -86px;
+    margin-top: -87px;
     position: absolute;
-    margin-left: 40vh;
+    margin-left: 15.5vw;
     line-height: 1;
-    flex-direction: row;
+
   }
   
   .card-circle-reverse {
@@ -80,8 +80,14 @@
   @media only screen and (min-width: 393px) and (max-width: 852px) {
 
     .card-reverse-container {
-      margin-top: 20vh;
+      margin-top: 19.5vh;
       margin-left: 39vw;
+      
+    }
+    .text-card-reverse {
+      font-size: 26px;
+      width: 400px;
+      left: -11.5vw;
       
     }
     .card-circle-reverse {
