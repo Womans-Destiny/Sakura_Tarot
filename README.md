@@ -18,14 +18,23 @@ _Project phases:_
   - **Demo**
   - **Test**
 
-## Mockups
+## Built the project with atomic system: 
+### Figma wireframes
+[Enlace al diseño wireframes mobile](app/src/assets/wireframeMobil.png)
+[Enlace al diseño wireframes desktop](app/src/assetsfigmaDewireframeDesktop.png)
+### Figma átomos
+[Enlace al diseño Atomos en Figma](app/src/assets/atomos.png)
+### Figma moleculas
+[Enlace al diseño Atomos en Figma](app/src/assets/moleculas.png)
+### Figma organismos
+[Enlace al diseño Organismos en Figma](app/src/assets/organismos.png)
+### Figma mobile
+[Enlace al diseño Versión Mobil en Figma](app/src/assets/figmaMobile.png)
+### Figma version desktop
+[Enlace al diseño Versión Desktop en Figmfig](app/src/assets/figmaDesktop.png)
 
-### Mobile
 
-### Desktop
-
-
-## Technologies 
+## :hammer:Technologies 
 
 <div align=""> 
 <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="20" />  
@@ -35,7 +44,7 @@ _Project phases:_
 </div>
 
   
-## Tools
+## :hammer:Tools
 
 <div align="">  
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="20" heigth="20"/>
@@ -45,14 +54,55 @@ _Project phases:_
 <img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="20" heigth="20"/>
  <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-Canva.png" alt="Canca" width="20" heigth="20"/>
 
+### Installation to see the application
+Here are the steps for installation:
+
+- git clone https://github.com/Womans-Destiny/Sakura_Tarot.git
+- npm install
 
 ## Developers
 
-  - Rosa Pedret Vergillos (rosapedret2@gmail.com )
-  - Ana Lucía Silva Córdoba (coderalsc@gmail.com)
-  - Marga Mbambé (hola@margambande.com)
-  - Rafaela Silveira Prieto (todaunabossa@gmail.com)
-  - Mónica Blanco (mgblanco1001@gmail.com)
+<div style="display: flex; justify-content: center;">
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <a href="https://github.com/Rosapedret2">
+      <img src="https://avatars.githubusercontent.com/u/131767553?v=4" alt="Rosa Pedret Vergillos" width="115">
+      <span>Rosa Pedret Vergillos</span>
+      <span>rosapedret2@gmail.com</span>
+    </a>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <a href="https://github.com/alusilco">
+      <img src="https://avatars.githubusercontent.com/u/131855670?v=4" alt="Ana Lucía Silva Córdoba" width="115">
+      <span>Ana Lucía Silva Córdoba</span>
+      <span>coderalsc@gmail.com</span>
+    </a>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <a href="https://github.com/marga">
+      <img src="https://avatars.githubusercontent.com/u/000?v=4" alt="Marga Mbambé" width="115">
+      <span>Marga Mbambé</span>
+      <span>hola@margambande.com</span>
+    </a>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <a href="https://github.com/todaunabossa">
+      <img src="https://avatars.githubusercontent.com/u/125391542?v=4" alt="Rafaela Silveira Prieto" width="115">
+      <span>Rafaela Silveira Prieto</span>
+      <span>todaunabossa@gmail.com</span>
+    </a>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <a href="https://github.com/mgblanco10">
+      <img src="https://avatars.githubusercontent.com/u/107352744?v=4" alt="Mónica Blanco Calviño" width="115">
+      <span>Mónica Blanco Calviño</span>
+      <span>mgblanco1001@gmail.com</span>
+    </a>
+  </div>
+</div>
+
+
+
+
 
 
 ### Credits:

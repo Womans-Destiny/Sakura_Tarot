@@ -5,9 +5,8 @@ function ButtonGame() {
   return (
     <button className="buttonGame">
         <Link to="/result" className='textButtonGame'>DESCUBRIR MI TIRADA</Link>
-    </button>
+    </button>   
   )
 }
 
 export default ButtonGame
-

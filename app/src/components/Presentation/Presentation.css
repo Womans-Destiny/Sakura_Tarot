@@ -9,32 +9,19 @@ div.home{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 65px;
-    
+    margin: 25px;
+    font-family: Cinzel;
+    line-height: 1.8;
+
 }
-  
-  h1, h2 {
+.informationHome{
     font-size: large;
     margin: 0vh;
-    line-height: 2;
-    
 }
-
-h3, p {
+.infoAditionalHome{
     font-size: medium;
-    line-height: 2;
-}
-
-span{
-    font-weight: bold;
-
 }
   
-@media only screen and (min-width: 393px) and (max-width: 852px) {
-
-    .body-home {
-        margin: 30px;
-      }
-    }
-
-
+.infoSpanBold{
+    font-weight: bold;
+}
