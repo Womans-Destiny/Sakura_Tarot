@@ -1,7 +1,8 @@
 .starD {
-    width: 100px;
-    height: 100px;
-    align-items: left;
+    .logo-img{
+        width: 60px;
+        height: 60px;
+    }    
 }
 
    
