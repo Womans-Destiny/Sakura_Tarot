@@ -3,7 +3,7 @@ import './Presentation.css';
 
 function Presentation() {
   return (
-    <>
+<>
     <div className='body-home'>
       <h1>¡Bienvenid@!</h1>
       <h3> Tirada de TAROT</h3>
@@ -19,7 +19,3 @@ function Presentation() {
 
 
 export default Presentation
-
-
-
-
