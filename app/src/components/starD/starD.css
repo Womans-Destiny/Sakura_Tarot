@@ -1,9 +1,7 @@
-
-.starD{
-    width: 70px;
-    position: relative;
-    left:-15%;
-    top: 20%;
+.starD {
+    width: 100px;
+    height: 100px;
+    align-items: left;
 }
-       
+
    
