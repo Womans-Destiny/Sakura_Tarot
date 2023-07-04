@@ -1,6 +1,8 @@
+
 div.home{
     overflow: hidden;
 }
+
 .body-home {
     display: flex;
     flex-direction: column;
@@ -8,7 +10,7 @@ div.home{
     justify-content: center;
     text-align: center;
     margin: 25px;
-
+    
 }
   
   h1, h2 {
@@ -25,5 +27,9 @@ h3, p {
 
 span{
     font-weight: bold;
-    line-height: 2;
+
 }
+  
+  
+
+

@@ -1,15 +1,10 @@
 .home {
-  height: 100vh;
-  margin: -7px;
-  padding: 0;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('../../assets/bg-home.png');
+    /* width: 100vh; */
+    height: 100vh;    
+    background-position: center 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bg-home.png');
 
-}
-@media (min-width: 1024px){
-  .home {
-      background-image: url('../../assets/bg-home-desktop.png');   
-}
-}
+  }
+  
