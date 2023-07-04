@@ -2,7 +2,13 @@
     .logo-img{
         width: 60px;
         height: 60px;
+        
     }    
+}
+
+.logo-img {
+    display: flex;
+    align-items: end;
 }
 
    

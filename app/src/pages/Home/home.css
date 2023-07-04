@@ -6,10 +6,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../../assets/sakuraBloom_inv.jpg');
-    background-color: rosybrown;
+    
 
   }
-  
+
   @media only screen and (min-width: 393px) and (max-width: 852px) {
 
     .home {

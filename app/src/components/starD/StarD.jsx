@@ -1,5 +1,4 @@
 
-import React from 'react'
 import star from '../../assets/starD.png'
 import './starD.css'
 import { Link } from 'react-router-dom';

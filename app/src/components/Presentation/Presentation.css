@@ -1,7 +1,7 @@
 
-div.home{
+/*div.home{
     overflow: hidden;
-}
+}*/
 
 .body-home {
     display: flex;
@@ -12,6 +12,15 @@ div.home{
     margin: 25px;
     font-family: Cinzel;
     line-height: 1.8;
+    margin-top: -2vh;
 
 }
 
+@media only screen and (min-width: 393px) and (max-width: 852px) {
+
+    .buttonRestart {
+      top: 705px;
+      left: 5vh;
+  
+      }
+    }
