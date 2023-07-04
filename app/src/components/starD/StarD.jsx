@@ -1,3 +1,4 @@
+
 import React from 'react'
 import star from '../../assets/starD.png'
 import './starD.css'
@@ -15,6 +16,5 @@ function StarD () {
 }
 
 export default StarD
-
 
 
