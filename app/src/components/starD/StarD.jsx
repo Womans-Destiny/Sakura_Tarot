@@ -1,16 +1,16 @@
-import React from 'react'
-import stard from '../../assets/starD.png'
+import star from '../../assets/starD.png'
 import './starD.css'
+import { Link } from 'react-router-dom'
 
-function StarD() {
+function StarD () {
   return (
     <div>
-      <img className="starD" src= {stard} alt= "Favorites Star Icon" />
+    <Link to="Favorites">
+      <img className="starD" src={star} alt= "Favorites Star Icon" />
+    </Link>
     </div>
 
   )
 }
 
 export default StarD
-
-
