@@ -1,8 +1,9 @@
 .game {
     height: 100vh;
     background-position: center;
-    background-size: cover;
-    background-image: url('../../assets/bg-pages.svg');
+    background-size: cover; 
+    background-image: url('../../assets/bg-sakura.png');
+    
 }
 /* @media (min-width: 1024px){
     .game {
