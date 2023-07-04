@@ -3,5 +3,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../../assets/bg-pages.svg');
+    /*background-image: url('../../assets/bg_Sakura.jpg');*/
+    background-color: rosybrown;
 }

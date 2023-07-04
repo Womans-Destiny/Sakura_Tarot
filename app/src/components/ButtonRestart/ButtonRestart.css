@@ -1,27 +1,26 @@
-
-.button{
-    width: 195px;
+.buttonRestart {
+    width: 140px;
     height: 50px;
     background-color: #2A5A87;
     border: 2px solid #F988BE;
     border-radius: 30px;
     position: absolute;
     bottom: 10vh;
-    left: 43vw;
+    left: 35vw;
     
 }
-.textButton {
+.textButtonRestart {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
-    
+
 }
 
 @media only screen and (min-width: 393px) and (max-width: 852px) {
 
-    .button {
+    .buttonRestart {
       top: 705px;
-      left: 11.5vh;
+      left: 5vh;
   
       }
     }
