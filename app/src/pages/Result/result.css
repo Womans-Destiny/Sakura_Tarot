@@ -3,9 +3,9 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../../assets/cardcaptor-sakura.png');
-  }
-  
+    background-image: url('../../assets/sakuraBloom_inv.jpg');
+  }  
+
   @media (max-width: 768px) {
     .result {
       background-position: center;
