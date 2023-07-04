@@ -4,7 +4,7 @@ import './starD.css'
 
 function StarD() {
   return (
-    <div>
+    <div class = "Star_container">
       <img className="starD" src= {stard} alt= "Favorites Star Icon" />
     </div>
 
