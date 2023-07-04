@@ -1,4 +1,3 @@
-import React from 'react'
 import './Presentation.css';
 
 function Presentation() {
@@ -18,6 +17,3 @@ function Presentation() {
 }
 
 export default Presentation
-
-
-
