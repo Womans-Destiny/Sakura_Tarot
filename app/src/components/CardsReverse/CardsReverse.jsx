@@ -24,7 +24,7 @@ function CardsReverse() {
   };
 
   const handleCardClick = (index) => {
-    if (selectedCards.length === 5) {
+    if (selectedCards.length === 3) {
       return; 
     }
 
@@ -34,7 +34,7 @@ function CardsReverse() {
       return updatedSelectedCards;
     });
 
-    if (selectedCards.length === 6) {
+    if (selectedCards.length === 8) {
       setTimeout(() => {
         setShowResult(true);
       }, 1000); 

@@ -7,13 +7,19 @@ function Card() {
   const [cardData, setCardData] = useState([]);
 
   useEffect(() => {
-    fetch('https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/')
-      .then((response) => response.json())
-      .then((data) => {
-        const randomCards = getRandomCards(data, 3);
-        setCardData(randomCards);
-      })
-      .catch((error) => console.log(error));
+    const savedData = localStorage.getItem('cardData');
+    if (savedData) {
+      setCardData(JSON.parse(savedData));
+    } else {
+      fetch('https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/')
+        .then((response) => response.json())
+        .then((data) => {
+          const randomCards = getRandomCards(data, 3);
+          setCardData(randomCards);
+          localStorage.setItem('cardData', JSON.stringify(randomCards));
+        })
+        .catch((error) => console.log(error));
+    }
   }, []);
 
   function getRandomCards(cards, count) {
@@ -36,6 +42,7 @@ function Card() {
       return card;
     });
     setCardData(updatedCardData);
+    localStorage.setItem('cardData', JSON.stringify(updatedCardData));
   }
 
   return (
@@ -46,7 +53,7 @@ function Card() {
           key={card.id}
           onClick={() => handleCardFlip(card.id)}
         >
-           <h6 className="card-position">{card.title}</h6>
+          <h6 className="card-position">{card.title}</h6>
           <div className="card-front">
             <img
               src={card.isFlipped ? card.cardsReverse.sakuraReverse : card.sakuraCard}
@@ -70,4 +77,3 @@ function Card() {
 }
 
 export default Card;
-
