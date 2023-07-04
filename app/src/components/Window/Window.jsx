@@ -1,5 +1,4 @@
-
-import './Window.css';
+import React from 'react'
 
 function Window() {
     const date = new Date().toLocaleDateString();

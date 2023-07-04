@@ -2,6 +2,8 @@
 import './game.css'
 import Logo from '../../components/Logo/Logo.jsx'
 import CardsReverse from '../../components/CardsReverse/CardsReverse'
+import ButtonGame from '../../components/ButtonGame/ButtonGame'
+
 
 
 function Game() {
@@ -9,6 +11,7 @@ function Game() {
     <div className='game'>
       <Logo/>
       <CardsReverse />
+      <ButtonGame />
       
     </div>
   )
