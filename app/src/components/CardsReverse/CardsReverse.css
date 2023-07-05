@@ -10,7 +10,7 @@
     box-shadow: 3px 3px var(--box-shadow-cards);
     text-align: center;
     margin-top: 20vh;
-    margin-left: 47vw;
+    margin-left: 40vw;
   }
   
   .text-card-reverse {
@@ -36,6 +36,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     margin-top: 70px;
+   margin-left: -20px;
   }
   
   .card-reverse-img-top {
