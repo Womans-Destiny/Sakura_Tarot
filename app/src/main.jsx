@@ -1,3 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import { RouterProvider } from 'react-router-dom';
+import { Router } from './routes/Router';
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
@@ -9,32 +14,9 @@ import Favorites from './pages/Favorites/Favorites.jsx'
 import Home from './pages/Home/Home.jsx'
 
 
-const router = createBrowserRouter ([
-  {
-    path: '/',
-    element: <App />
-  },
-
-  {
-    path: '/result',
-    element: <Result />
-  },
-
-  {
-    path: '/game',
-    element: <Game />
-  },
-  {
-    path: '/favorites',
-    element: <Favorites />
-  },
-  {
-    path: '/home',
-    element: <Home />
-  }
-])
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={Router}/>
   </React.StrictMode>
-)
+);

@@ -5,7 +5,6 @@ import CardsReverse from '../../components/CardsReverse/CardsReverse'
  
 
 
-
 function Game() {
   return (
     <div className='game'>
@@ -18,3 +17,4 @@ function Game() {
 }
 
 export default Game
+

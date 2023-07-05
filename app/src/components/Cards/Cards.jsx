@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Cards.css';
 
 const titles = ['PASADO', 'PRESENTE', 'FUTURO'];
 
-function Card() {
+function Card({ selectedCards }) {
   const [cardData, setCardData] = useState([]);
 
   useEffect(() => {
@@ -24,11 +24,13 @@ function Card() {
 
   function getRandomCards(cards, count) {
     const shuffledCards = cards.sort(() => 0.5 - Math.random());
-    return shuffledCards.slice(0, count).map((card, index) => ({
-      ...card,
-      title: titles[index], 
-      isFlipped: true,
-    }));
+    return shuffledCards
+      .slice(0, count)
+      .map((card, index) => ({
+        ...card,
+        title: titles[index],
+        isFlipped: true,
+      }));
   }
 
   function handleCardFlip(cardId) {
@@ -46,34 +48,36 @@ function Card() {
   }
 
   return (
-    <div className='containerResult'>
-      {cardData.map((card) => (
+    <div className="container-result">
+      {selectedCards.map((card) => (
         <div
           className={`card ${card.isFlipped ? 'flipped' : ''}`}
           key={card.id}
           onClick={() => handleCardFlip(card.id)}
         >
-          <h6 className="card-position">{card.title}</h6>
-          <div className="card-front">
-            <img
-              src={card.isFlipped ? card.cardsReverse.sakuraReverse : card.sakuraCard}
-              className="card-img-top"
-              alt="..."
-            />
-          </div>
-          
-          <div className={`card-body ${!card.isFlipped ? '' : 'hidden'}`}>
-            {!card.isFlipped && (
-              <>
-                <h5 className="card-title">{card.spanishName}</h5>
-                <p className="card-text">{card.meaning}</p>
-              </>
-            )}
-          </div>
+          <>
+            <h6 className="card-position">{card.title}</h6>
+            <div className="card-front">
+              <img
+                src={card.isFlipped ? card.cardsReverse.sakuraReverse : card.sakuraCard}
+                className="card-img-top"
+                alt="..."
+              />
+            </div>
+
+            <div className={`card-body ${!card.isFlipped ? '' : 'hidden'}`}>
+              {!card.isFlipped && (
+                <>
+                  <h5 className="card-title">{card.spanishName}</h5>
+                  <p className="card-text">{card.meaning}</p>
+                </>
+              )}
+            </div>
+          </>
         </div>
       ))}
     </div>
   );
-}
+};
 
 export default Card;
