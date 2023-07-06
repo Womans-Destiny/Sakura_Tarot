@@ -7,8 +7,8 @@ function Favorites() {
   return (
     <div className='favorites'>
       <Logo/>
-      <StarD/>
-     
+      <Window />
+      
     </div>
   )
 }
