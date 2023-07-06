@@ -6,9 +6,8 @@
     border: 2px solid #F988BE;
     border-radius: 30px;
     position: absolute;
-    bottom: 10vh;
-    left: 43vw;
-        
+    top: 750px;
+    left: 65px;   
 }
 .textButtonGame {
     color: #FFFFFF;

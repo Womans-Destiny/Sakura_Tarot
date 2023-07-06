@@ -1,4 +1,4 @@
-.card-reverse-container {
+  .card-reverse-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +9,8 @@
     background-repeat: no-repeat;
     box-shadow: 3px 3px var(--box-shadow-cards);
     text-align: center;
-    margin-top: 18vh;
-    margin-left: 47vw;
+    margin-top: 450px;
+    margin-left: 145px;
   }
   
   .text-card-reverse {
@@ -35,7 +35,7 @@
   .card-reverse {
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 70px;
+    margin-top: 60px;
   }
   
   .card-reverse-img-top {
