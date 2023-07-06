@@ -1,5 +1,5 @@
 import './favorites.css'
-import Window from '../../components/Window/Window.jsx'
+import Window from '../../components/window/Window.jsx'
 import Logo from '../../components/Logo/Logo'
 import StarD from '../../components/starD/StarD'
 
