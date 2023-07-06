@@ -1,3 +1,8 @@
+
+div.home{
+    overflow: hidden;
+}
+
 .body-home {
     display: flex;
     flex-direction: column;
@@ -8,15 +13,4 @@
     font-family: Cinzel;
     line-height: 1.8;
 
-}
-.informationHome{
-    font-size: large;
-    margin: 0vh;
-}
-.infoAditionalHome{
-    font-size: medium;
-}
-  
-.infoSpanBold{
-    font-weight: bold;
 }

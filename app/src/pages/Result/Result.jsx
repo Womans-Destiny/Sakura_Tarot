@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo from '../../components/Logo/Logo.jsx'
 import './Result.css'
-import Cards from '../../components/Cards/Cards.jsx'
 import ButtonFavorites from '../../components/ButtonFavorites.css/ButtonFavorites.jsx'
+import Cards from '../../components/Cards/Cards.jsx'
 
 
 function Result() {
@@ -10,6 +10,7 @@ function Result() {
     <div className='result'>
       <Logo/>
       <Cards />
+    
       <ButtonFavorites />
     </div>
   )
