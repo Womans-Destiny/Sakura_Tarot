@@ -9,7 +9,7 @@ const Comment = () => {
   };
 
   return (
-    <div>
+    <div className='commentDiv'>
       <textarea className='comment-box'
         placeholder="¿Cómo me hace sentir esta predicción?"
         value={comment}

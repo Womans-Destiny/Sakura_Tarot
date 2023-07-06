@@ -4,8 +4,10 @@
     background-color: var(--blue-btn);
     border: 2px solid var(--blue-border-btn);
     border-radius: 30px;
-    display: flex;  
-    margin-top: 550px;
+    position: absolute;
+    top: 950px;
+    left: 155px;
+    
 }
 .textButtonFavorites {
     color: var(--blue-text-btn);

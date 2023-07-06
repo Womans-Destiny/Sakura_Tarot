@@ -1,18 +1,20 @@
-import React from 'react'
-import './Window.css';
+import { useRef } from 'react'
+import './window.css'
 
 function Window() {
-    const date = new Date().toLocaleDateString();
-    const reading = 'Tu lectura';
-    const comment = 'Tu comentario';
+    const dateRef = useRef(new Date().toLocaleDateString());
+    const comment = 'Este es tu comentario'
+    const reading = 'Esta es tu lectura'
+    const myData = localStorage.getItem('cardData');
+    console.log(myData); 
+
   return (
-<div className="window">
-    <div className="window-content">
-      <h3>{date}</h3>
-      <p>{reading}</p>
-      <p>{comment}</p>
+    <div className='windowF'>
+        <h1 className='date'>fecha: {dateRef.current}</h1>
+        <p className='comment'><strong>{comment}:</strong></p>
+        <p className='comment'>{reading}</p>
+
     </div>
-  </div>
   )
 }
 

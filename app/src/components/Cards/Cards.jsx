@@ -3,16 +3,22 @@ import { getAllCards } from '../../services/getAllCard';
 import getRandom from '../../services/getRandom';
 import './Cards.css';
 
-function Card({seleccionadas}) {
+function Cards() {
   const [cardData, setCardData] = useState([]);
   /*console.log(seleccionadas);*/
 
   useEffect(() => {
-    getAllCards().then((data) => {
-      const randomCards = getRandom(data, 3);
+    getAllCards().then((data) => {      
+      const randomCards = getRandom(data, 3);      
       setCardData(randomCards);
+      
+      //window.location.href = '/favorites/';//
+      
+
     });
   }, []);
+      localStorage.clear();
+      localStorage.setItem('cardData', 'randomCard');
 
   function handleCardFlip(cardId) {
     const updatedCardData = cardData.map((card) => {
@@ -56,4 +62,4 @@ function Card({seleccionadas}) {
   );
 }
 
-export default Card;
+export default Cards;
