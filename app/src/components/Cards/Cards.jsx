@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getAllCards } from '../../services/getAllCard';
 import getRandom from '../../services/getRandom';
 import './Cards.css';
 
-function Card() {
+function Card({seleccionadas}) {
   const [cardData, setCardData] = useState([]);
+  /*console.log(seleccionadas);*/
 
   useEffect(() => {
     getAllCards().then((data) => {

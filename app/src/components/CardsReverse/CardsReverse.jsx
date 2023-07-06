@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './CardsReverse.css';
 import { getAllCards } from '../../services/getAllCard';
 import getRandom from '../../services/getRandom';
