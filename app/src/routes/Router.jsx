@@ -1,5 +1,5 @@
-import React from 'react'
-import { createBrowserRouter, Route } from 'react-router-dom';
+
+import { createBrowserRouter } from 'react-router-dom';
 import App from '../App'
 import '../index.css'
 import Result from '../pages/Result/Result.jsx'
