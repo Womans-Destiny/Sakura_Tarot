@@ -1,12 +1,12 @@
 .buttonFavorites{
     width: 260px;
-    height: 77px;
+    height: 65px;
     background-color: var(--blue-btn);
     border: 2px solid var(--blue-border-btn);
     border-radius: 30px;
     position: absolute;
-    top: 950px;
-    left: 155px;
+    top: 750px;
+    left: 70px;
     
 }
 .textButtonFavorites {

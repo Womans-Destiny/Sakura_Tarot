@@ -1,6 +1,8 @@
 .container-result{
     display: flex;
-    margin-top: 70px;
+    margin-top: 40px;
+    width: 380px;
+    overflow-x: hidden;
 }
 .card-img-top{
     width: 77px;
@@ -20,6 +22,10 @@
 .card-text{
     margin-top: 15px;
     line-height: 1;
+    width: 90px;
+    height: 120px;
+    font-size: 14px;
+    
 }
 .card-position{
     margin-bottom: 10px;
