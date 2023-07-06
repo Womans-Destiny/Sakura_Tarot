@@ -5,8 +5,9 @@
     border: 2px solid var(--blue-border-btn);
     border-radius: 30px;
     position: absolute;
-    top: 750px;
-    left: 65px;   
+    top: 950px;
+    left: 155px;
+    
 }
 .textButtonFavorites {
     color: var(--blue-text-btn);

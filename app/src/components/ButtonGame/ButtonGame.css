@@ -5,10 +5,8 @@
     background-color: #2A5A87;
     border: 2px solid #F988BE;
     border-radius: 30px;
-    position: absolute;
-    bottom: 10vh;
-    left: 43vw;
-        
+    display: flex;
+    margin-top: 250px;
 }
 .textButtonGame {
     color: #FFFFFF;

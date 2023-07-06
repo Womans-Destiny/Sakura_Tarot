@@ -1,10 +1,9 @@
-
 import Logo from '../../components/Logo/Logo.jsx'
 import './Result.css'
+import ButtonFavorites from '../../components/ButtonFavorites.css/ButtonFavorites.jsx'
 import Cards from '../../components/Cards/Cards.jsx'
-import ButtonFavorites from '../../components/ButtonFavorites/ButtonFavorites.jsx'
-import StarD from '../../components/starD/StarD.jsx'
-import ButtonRestart from '../../components/ButtonRestart/ButtonRestart.jsx'
+import StarD from '../../components/StarD/StarD.jsx'
+import Comment from '../../components/Comment/Comment.jsx'
 
 
 function Result() {
@@ -13,9 +12,9 @@ function Result() {
       <Logo/>
       <StarD />
       <Cards />
+      <Comment />
       <ButtonFavorites />
-      <ButtonRestart />
-
+      
     </div>
   )
 }

@@ -1,15 +1,7 @@
 .result {
-    height: 100vh;
+    height: 1200px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../../assets/sakuraBloom_inv.jpg');
-  }  
-
-  @media (max-width: 768px) {
-    .result {
-      background-position: center;
-      background-size: contain;
-    }
-  }
-  
+    background-image: url('../../assets/bg-pages.svg');
+}
