@@ -8,6 +8,8 @@ function Favorites() {
     <div className='favorites'>
       <Logo/>
       <Window />
+      <Window />
+      <Window />
     </div>
   )
 }
