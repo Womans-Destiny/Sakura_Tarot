@@ -4,6 +4,7 @@ import './home.css'
 import '../../components/Presentation/Presentation.css'
 import Button from '../../components/Button/Button.jsx'
 import StarD from '../../components/starD/StarD.jsx'
+import Botoncito from '../../components/botoncito/botoncito.jsx'
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
         <StarD/>
         <Presentation/> 
         <Button/>
+        <Botoncito className={'color'}text={'Rafaela lo logro'} link={'/game'}/>
       </div>
   )
 }

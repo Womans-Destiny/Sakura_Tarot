@@ -5,6 +5,7 @@ import Cards from '../../components/Cards/Cards.jsx'
 import ButtonFavorites from '../../components/ButtonFavorites/ButtonFavorites.jsx'
 import StarD from '../../components/starD/StarD.jsx'
 import ButtonRestart from '../../components/ButtonRestart/ButtonRestart.jsx'
+import Botoncito from '../../components/botoncito/botoncito.jsx'
 
 
 function Result() {
@@ -15,6 +16,7 @@ function Result() {
       <Cards />
       <ButtonFavorites />
       <ButtonRestart />
+      
 
     </div>
   )
