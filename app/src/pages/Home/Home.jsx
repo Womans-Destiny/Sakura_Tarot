@@ -1,14 +1,13 @@
-import Logo from '../../components/Logo/Logo.jsx'
 import './home.css'
-import '../../components/Presentation/Presentation.css'
 import Button from '../../components/Button/Button.jsx'
-import Presentation from '../../components/Presentation/Presentation.jsx'
-import StarD from '../../components/StarD/StarD.jsx'
+import Logo from '../../components/Logo/Logo'
+import StarD from '../../components/StarD/StarD'
+import Presentation from '../../components/Presentation/Presentation'
 
 function Home() {
   return (
     <div className='home'>
-        <Logo/>
+        <Logo />
         <StarD />
         <Presentation />
         <Button />

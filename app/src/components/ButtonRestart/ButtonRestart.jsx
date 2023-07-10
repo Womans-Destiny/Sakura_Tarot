@@ -9,4 +9,4 @@ function ButtonRestart() {
   )
 }
 
-export default ButtonRestart;
+export default ButtonRestart

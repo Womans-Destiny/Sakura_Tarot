@@ -1,15 +1,14 @@
 import './game.css'
 import Logo from '../../components/Logo/Logo.jsx'
-import CardsReverse from '../../components/CardsReverse/CardsReverse'
-import ButtonGame from '../../components/ButtonGame/ButtonGame'
 import StarD from '../../components/StarD/StarD'
+import Cards from '../../components/Cards/Cards'
 
 function Game() {
   return (
     <div className='game'>
       <Logo/>
       <StarD />
-      <CardsReverse />
+      <Cards />
       
 
     </div>

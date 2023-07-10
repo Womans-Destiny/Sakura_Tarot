@@ -1,58 +1,150 @@
-
-.containerResult{
+.card-container {
+    /* Estilos para el contenedor de Cards */
     display: flex;
     margin-top: 40px;
     width: 380px;
     overflow-x: hidden;
-}
-.card-img-top{
+  }
+  
+  .card-front {
+    /* Estilos para el frente de la carta en Cards */
+    display: flex;
+  }
+  
+  .card-img-top {
+    /* Estilos para la imagen de la carta en Cards */
     width: 90px;
     height: 180px;
-}
-.card-front{
-    display: flex;
-}
-.card-body {
-    position:absolute;
+  }
+  
+  .card-body {
+    /* Estilos para el cuerpo de la carta en Cards */
+    position: absolute;
     margin-top: 10px;
     width: 100px;
     font-family: 'Cinzel';
     font-size: 16px;
     font-weight: bold;
-}
-.card-text{
-    margin-top: 30x;
+  }
+  
+  .card-text {
+    /* Estilos para el texto de la carta en Cards */
+    margin-top: 30px;
     line-height: 1;
     width: 90px;
     height: 120px;
     font-size: 14px;
-    
-}
-.card-position{
+  }
+  
+  .card-position {
+    /* Estilos para la posición de la carta en Cards */
     margin-bottom: 5px;
     font-size: 16px;
     align-items: center;
-}
-.card-title {
+  }
+  
+  .card-title {
+    /* Estilos para el título de la carta en Cards */
     font-weight: bolder;
     font-size: 18px;
-}
-
-@media only screen and (min-width: 393px) and (max-width: 852px) {
-
-    .containerResult{
-        display: flex;
-        justify-content: space-between;
-        padding: 1px;
-        width: 90vw;
-        margin-left: 4vw;
-        margin-top: 10vh;
-
+  }
+  
+  .card-reverse-container {
+    /* Estilos para el contenedor de CardsReverse */
+    width: 70px;
+    height: 160px;
+    background-image: url(https://i.ibb.co/XxrvMJ2/Reverso-Sakura.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px var(--box-shadow-cards);
+    text-align: center;
+    margin-top: 20vh;
+    margin-left: 40vw;
+  }
+  
+  .text-card-reverse {
+    color: var(--black);
+    font-weight: bolder;
+    font-size: 18px;
+    width: 250px;
+    margin-top: -87px;
+    position: absolute;
+    margin-left: 15.5vw;
+    line-height: 1;
+  }
+  
+  .card-circle-reverse {
+    position: absolute;
+    left: 48vw;
+    top: 27vh;
+  }
+  
+  .card-reverse {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 70px;
+    margin-left: -45px;
+  }
+  
+  .card-reverse-img-top {
+    width: 70px;
+    height: 160px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .deck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .ready-text {
+    position: absolute;
+    width: 190px;
+    height: 80px;
+    background-color: var(--modal-feedback);
+    border: 3px solid var(--modal-feedback-border);
+    border-radius: 15px;
+    display: flex;
+    bottom: 460px;
+    right: 87px;
+  }
+  
+  .text-feedback {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 1px;
+  }
+  
+  .image-feedback {
+    width: 70px;
+    margin-right: 1px;
+  }
+  
+  .title-game {
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 393px) and (max-width: 852px) {
+    /* Estilos de media query para pantallas de tamaño mediano */
+  
+    .card-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 1px;
+      width: 90vw;
+      margin-left: 4vw;
+      margin-top: 10vh;
     }
-    .card-img-top{
-        width: 88px;
-        height: 173px;
+  
+    .card-img-top {
+      width: 88px;
+      height: 173px;
     }
-    
-
-}
+  }
+  

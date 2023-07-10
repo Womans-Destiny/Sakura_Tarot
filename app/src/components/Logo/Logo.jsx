@@ -1,4 +1,3 @@
-
 import logo from '../../assets/logo_desktop.svg'
 import './Logo.css'
 import { Link } from 'react-router-dom';

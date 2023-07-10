@@ -1,7 +1,5 @@
   .card-reverse-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     width: 70px;
     height: 160px;
     background-image: url(https://i.ibb.co/XxrvMJ2/Reverso-Sakura.jpg);
@@ -29,26 +27,28 @@
     position: absolute;
     left: 48vw;
     top: 27vh;
-    padding-bottom: 10px;
   }
   
   .card-reverse {
     position: absolute;
     transform: translate(-50%, -50%);
     margin-top: 70px;
-   margin-left: -20px;
+    margin-left: -45px;
   }
   
   .card-reverse-img-top {
-    width: 53px;
-    height: 112px;
+    width: 70px;
+    height: 160px;
+    cursor: pointer;
+    background-color: transparent;
+    
   }
   
   .deck {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 500px;
     height: 200px;
     background-color: transparent;
     cursor: pointer;
@@ -78,23 +78,3 @@
     text-align: center;
   }
 
-  @media only screen and (min-width: 393px) and (max-width: 852px) {
-
-    .card-reverse-container {
-      margin-top: 19.5vh;
-      margin-left: 39vw;
-      
-    }
-    .text-card-reverse {
-      font-size: 26px;
-      width: 400px;
-      left: -11.5vw;
-      
-    }
-    .card-circle-reverse {
-      position: absolute;
-      left: 42vw;
-      top: 27vh;
-      
-    }
-    }
